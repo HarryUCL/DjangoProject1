@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>热门文章</title>
+</head>
+<body>
+<div>
+    <h2>热门文章</h2>
+    <ul>
+        {% for article in articles %}
+            <li>{{ article }}</li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>
